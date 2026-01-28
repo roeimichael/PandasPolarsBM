@@ -1,0 +1,21 @@
+{
+  "backend": "pandas2",
+  "run_id": "run1",
+  "versions": {
+    "python": "3.10.0",
+    "pandas": "2.3.3",
+    "polars": "1.37.1"
+  },
+  "partA": {
+    "csv_time": 35.50725999998394,
+    "csv_mem": 5876.92578125
+  },
+  "partB": {
+    "slice_time": 0.4157364000333473,
+    "slice_mem": 2631.3203125
+  },
+  "partC": {
+    "join_time": 2.1024387000361457,
+    "join_mem": 3002.54296875
+  }
+}

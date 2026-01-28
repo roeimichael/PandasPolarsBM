@@ -1,0 +1,19 @@
+# --- Core Benchmarking Utilities ---
+psutil
+requests
+matplotlib
+seaborn
+
+# --- Polars (Modern Data Engine) ---
+polars>=1.0.0
+
+# --- Python 3.12 Specific: Pandas 3.0 (Pre-release) ---
+# Note: Requires Python 3.11+ and pyarrow for the new backend
+pandas
+#==3.0.0rc0
+pyarrow
+
+# --- ALTERNATE: Pandas 2.x (For Python 3.10 or Legacy Benchmarks) ---
+# To use these, comment out the Pandas 3.0 section above and uncomment these:
+# pandas>=2.2.0
+# numpy<2.0.0
